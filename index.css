@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background: #14213d;
+    color: #f1faee;
+    font-family: "Happy Monkey",cursive;
+}
+
+#start-el{
+    background-color: #c7f9cc;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    padding:10px 30px;
+}
+
+#start-el:hover{
+    padding: 10px 50px;
+    transition: all 200ms;
+    background-color: rgb(128, 237, 153);
+    box-shadow: 0px 0px 20px black;
+}
+
+#rules-el{
+    width: 450px;
+    display: block;
+    margin: 20px auto;
+}
+
+button{
+    font-family: inherit;
+    margin:5px 20px;
+}
+
+.btn{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(142, 202, 230,0.5)
+}
+
+#btn-1{
+    background: #ffb703;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    width: 50px; 
+}
+
+#btn-1:hover{
+    padding: 10px 25px;
+    transition: all 150ms;
+}
+
+#btn-2{
+    background: #fb8500;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25%
+}
+
+#btn-2:hover,#btn-3:hover{
+    padding:10px 20px;
+    transition: 150ms;
+}
+
+#btn-3{
+    background: #fb5607;
+    border:none;
+    padding: 10px 15px;
+    border-radius: 10%;
+}
+
+#drop-el{
+    background-color: rgb(239, 35, 60);
+    border:none;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#drop-el:hover{
+    padding: 8px 50px;
+    transition: all 200ms;
+    background: #d00000
+}
+
+#result-el{
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+    animation: blinker 1s linear infinite;
+    font-size: 25px;
+    color: red;
+}
+
+@keyframes blinker{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
